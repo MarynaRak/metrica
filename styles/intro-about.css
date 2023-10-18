@@ -1,0 +1,106 @@
+.intro-title {
+  width: 956px;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.intro-img {
+  position: relative;
+  width: 1150px;
+  height: 400px;
+  background-image: url(../resources/main-room.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.intro-text {
+  position: absolute;
+  width: 430px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  left: 40px;
+  bottom: 40px;
+}
+
+.about-description {
+  width: 1048px;
+  font-size: 45px;
+  line-height: 61px;
+  margin-bottom: 30px;
+}
+
+.about-btn {
+  width: 255px;
+  background: #ad1818;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 67px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 1199px) {
+  .intro-title {
+    width: 802px;
+    font-size: 50px;
+  }
+
+  .intro-img {
+    width: 100%;
+  }
+
+  .intro-text {
+    bottom: 30px;
+  }
+
+  .about-description {
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro-title {
+    width: 100%;
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 25px;
+  }
+
+  .intro-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .intro-text {
+    width: 312px;
+    font-size: 16px;
+    line-height: 22px;
+    left: 15px;
+    bottom: 15px;
+  }
+
+  .about-description {
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .about-btn {
+    width: 194px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 51px;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro-img {
+    background-image: url(../resources/main-room-phone.png);
+  }
+}

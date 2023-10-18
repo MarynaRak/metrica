@@ -1,0 +1,43 @@
+.order-title {
+  font-size: 45px;
+  line-height: 61px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.order-subtitle {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.order-input {
+  width: 100%;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+  .order-title {
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 11px;
+  }
+
+  .order-subtitle {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 70px;
+  }
+
+  .order-form {
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+}
