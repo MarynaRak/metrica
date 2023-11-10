@@ -34,6 +34,7 @@
 
 .about-btn {
   width: 255px;
+  padding: 20px 40px;
   background: #ad1818;
   border-radius: 5px;
   font-size: 20px;
@@ -102,5 +103,9 @@
 @media (max-width: 500px) {
   .intro-img {
     background-image: url(../resources/main-room-phone.png);
+  }
+
+  .about-btn {
+    padding: 15px 30px;
   }
 }
